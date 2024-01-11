@@ -8,6 +8,7 @@ public class Child_1 {
 	public void test1()
 	{
 		Reporter.log("Executing test1....",true);
+		Reporter.log("Executing test1....",true);
 	}
 
 }
