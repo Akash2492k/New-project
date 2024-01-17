@@ -1,4 +1,4 @@
-package bace_Package;
+package function1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,10 +9,10 @@ public class Parent {
 	public WebDriver driver;
 	
 	@BeforeMethod
-	public void bm(String url)
+	public void bm()
 	{
-	  driver=new ChromeDriver();
-	  driver.get("https://pos.aksharatraining.in/pos/public/");
+	    driver=new ChromeDriver();
+	    driver.get("https://pos.aksharatraining.in/pos/public/");
 	}
 	
 	@AfterMethod
