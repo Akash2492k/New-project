@@ -37,7 +37,7 @@ public class Function_1 extends Base {
 		driver.findElement(By.id("input-username")).sendKeys("admin");
 		driver.findElement(By.id("input-password")).sendKeys("pointofsale");
 		driver.findElement(By.xpath("//button[@name='login-button']")).click();
-		Reporter.log("Executing test1....",true);
+		Reporter.log("Executing test1....",true);                                                                                                                     
 			
 	}
 	
